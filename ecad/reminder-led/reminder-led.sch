@@ -325,23 +325,23 @@ Connection ~ 3650 4000
 Wire Wire Line
 	3650 4000 3650 3950
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 604ED3D8
 P 3800 2300
-F 0 "H?" H 3900 2346 50  0000 L CNN
+F 0 "H1" H 3900 2346 50  0000 L CNN
 F 1 "MountingHole" H 3900 2255 50  0000 L CNN
-F 2 "" H 3800 2300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 3800 2300 50  0001 C CNN
 F 3 "~" H 3800 2300 50  0001 C CNN
 	1    3800 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 604EF2BF
 P 3800 2550
-F 0 "H?" H 3900 2596 50  0000 L CNN
+F 0 "H2" H 3900 2596 50  0000 L CNN
 F 1 "MountingHole" H 3900 2505 50  0000 L CNN
-F 2 "" H 3800 2550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 3800 2550 50  0001 C CNN
 F 3 "~" H 3800 2550 50  0001 C CNN
 	1    3800 2550
 	1    0    0    -1  
