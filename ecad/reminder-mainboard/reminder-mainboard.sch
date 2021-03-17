@@ -242,19 +242,6 @@ Wire Wire Line
 	2000 1300 2000 1450
 Wire Wire Line
 	4100 1600 4100 1500
-$Comp
-L Device:C_Small C2
-U 1 1 604AE413
-P 4000 1750
-F 0 "C2" H 4092 1796 50  0000 L CNN
-F 1 "100uF" H 4092 1705 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 4000 1750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/AVX-TAJB107K006RNJ_C16133.pdf" H 4000 1750 50  0001 C CNN
-F 4 "TAJB107K006RNJ" H 4000 1750 50  0001 C CNN "Mfg PN"
-F 5 "AVX" H 4000 1750 50  0001 C CNN "Mfg"
-	1    4000 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 1950 3550 1950
 Wire Wire Line
@@ -932,6 +919,19 @@ F 1 "MountingHole" H 6550 5155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 6450 5200 50  0001 C CNN
 F 3 "~" H 6450 5200 50  0001 C CNN
 	1    6450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 604AE413
+P 4000 1750
+F 0 "C2" H 4092 1796 50  0000 L CNN
+F 1 "100uF" H 4092 1705 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 4000 1750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/AVX-TAJB107K006RNJ_C16133.pdf" H 4000 1750 50  0001 C CNN
+F 4 "TAJB107K006RNJ" H 4000 1750 50  0001 C CNN "Mfg PN"
+F 5 "AVX" H 4000 1750 50  0001 C CNN "Mfg"
+	1    4000 1750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
