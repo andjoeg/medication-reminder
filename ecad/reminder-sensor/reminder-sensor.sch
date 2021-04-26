@@ -1,0 +1,192 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SENSOR_PROX_QRD:QRD1113GR U?
+U 1 1 6085AF80
+P 5250 3500
+F 0 "U?" H 5250 3817 50  0000 C CNN
+F 1 "QRD1113GR" H 5250 3726 50  0000 C CNN
+F 2 "OptoDevice:Everlight_ITR8307F43" H 5250 3300 50  0001 C CNN
+F 3 "https://everlighteurope.com/index.php?controller=attachment&id_attachment=5385" H 5250 3600 50  0001 C CNN
+	1    5250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60863FAA
+P 5700 3150
+F 0 "#PWR?" H 5700 3000 50  0001 C CNN
+F 1 "+3.3V" H 5715 3323 50  0000 C CNN
+F 2 "" H 5700 3150 50  0001 C CNN
+F 3 "" H 5700 3150 50  0001 C CNN
+	1    5700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608660BA
+P 5550 3750
+F 0 "#PWR?" H 5550 3500 50  0001 C CNN
+F 1 "GND" H 5555 3577 50  0000 C CNN
+F 2 "" H 5550 3750 50  0001 C CNN
+F 3 "" H 5550 3750 50  0001 C CNN
+	1    5550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6086650D
+P 4950 3750
+F 0 "#PWR?" H 4950 3500 50  0001 C CNN
+F 1 "GND" H 4955 3577 50  0000 C CNN
+F 2 "" H 4950 3750 50  0001 C CNN
+F 3 "" H 4950 3750 50  0001 C CNN
+	1    4950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3750 4950 3600
+Wire Wire Line
+	5550 3750 5550 3600
+$Comp
+L Device:R_Small_US R?
+U 1 1 6086832A
+P 5700 3250
+F 0 "R?" H 5768 3296 50  0000 L CNN
+F 1 "10k" H 5768 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5700 3250 50  0001 C CNN
+F 3 "~" H 5700 3250 50  0001 C CNN
+	1    5700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60868A1D
+P 4850 3250
+F 0 "R?" H 4783 3296 50  0000 R CNN
+F 1 "160" H 4783 3205 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4850 3250 50  0001 C CNN
+F 3 "~" H 4850 3250 50  0001 C CNN
+	1    4850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60869558
+P 4850 3150
+F 0 "#PWR?" H 4850 3000 50  0001 C CNN
+F 1 "+5V" H 4865 3323 50  0000 C CNN
+F 2 "" H 4850 3150 50  0001 C CNN
+F 3 "" H 4850 3150 50  0001 C CNN
+	1    4850 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3350 4850 3400
+Wire Wire Line
+	4850 3400 4950 3400
+Wire Wire Line
+	5550 3400 5700 3400
+Wire Wire Line
+	5700 3400 5700 3350
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6086B06B
+P 7200 3200
+F 0 "H?" H 7300 3246 50  0000 L CNN
+F 1 "MountingHole" H 7300 3155 50  0000 L CNN
+F 2 "" H 7200 3200 50  0001 C CNN
+F 3 "~" H 7200 3200 50  0001 C CNN
+	1    7200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6086BAE7
+P 7200 3600
+F 0 "H?" H 7300 3646 50  0000 L CNN
+F 1 "MountingHole" H 7300 3555 50  0000 L CNN
+F 2 "" H 7200 3600 50  0001 C CNN
+F 3 "~" H 7200 3600 50  0001 C CNN
+	1    7200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 6086CBB9
+P 2450 3450
+F 0 "J?" H 2558 3731 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 2558 3640 50  0000 C CNN
+F 2 "" H 2450 3450 50  0001 C CNN
+F 3 "~" H 2450 3450 50  0001 C CNN
+	1    2450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6087060B
+P 3050 3200
+F 0 "#PWR?" H 3050 3050 50  0001 C CNN
+F 1 "+5V" H 3065 3373 50  0000 C CNN
+F 2 "" H 3050 3200 50  0001 C CNN
+F 3 "" H 3050 3200 50  0001 C CNN
+	1    3050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60870AF6
+P 3350 3200
+F 0 "#PWR?" H 3350 3050 50  0001 C CNN
+F 1 "+3.3V" H 3365 3373 50  0000 C CNN
+F 2 "" H 3350 3200 50  0001 C CNN
+F 3 "" H 3350 3200 50  0001 C CNN
+	1    3350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60871256
+P 3050 3800
+F 0 "#PWR?" H 3050 3550 50  0001 C CNN
+F 1 "GND" H 3055 3627 50  0000 C CNN
+F 2 "" H 3050 3800 50  0001 C CNN
+F 3 "" H 3050 3800 50  0001 C CNN
+	1    3050 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3200 3050 3350
+Wire Wire Line
+	3050 3350 2650 3350
+Wire Wire Line
+	3350 3200 3350 3450
+Wire Wire Line
+	3350 3450 2650 3450
+Wire Wire Line
+	2650 3650 3050 3650
+Wire Wire Line
+	3050 3650 3050 3800
+Text Label 3300 3550 0    50   ~ 0
+OUTPUT
+Wire Wire Line
+	3300 3550 2650 3550
+Text Label 6000 3400 0    50   ~ 0
+OUTPUT
+Wire Wire Line
+	6000 3400 5700 3400
+Connection ~ 5700 3400
+$EndSCHEMATC
