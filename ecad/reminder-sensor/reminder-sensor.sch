@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SENSOR_PROX_QRD:QRD1113GR U1
-U 1 1 6085AF80
-P 6500 3950
-F 0 "U1" H 6500 4267 50  0000 C CNN
-F 1 "QRD1113GR" H 6500 4176 50  0000 C CNN
-F 2 "OptoDevice:Everlight_ITR8307F43" H 6500 3750 50  0001 C CNN
-F 3 "https://everlighteurope.com/index.php?controller=attachment&id_attachment=5385" H 6500 4050 50  0001 C CNN
-	1    6500 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 608660BA
 P 6800 4200
@@ -81,8 +70,8 @@ L Connector:Conn_01x03_Male J1
 U 1 1 6086CBB9
 P 4300 3950
 F 0 "J1" H 4408 4231 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 4408 4140 50  0000 C CNN
-F 2 "" H 4300 3950 50  0001 C CNN
+F 1 "0530470310" H 4408 4140 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical" H 4300 3950 50  0001 C CNN
 F 3 "~" H 4300 3950 50  0001 C CNN
 	1    4300 3950
 	1    0    0    -1  
@@ -171,6 +160,39 @@ F 1 "+5V" H 3015 2723 50  0000 C CNN
 F 2 "" H 3000 2550 50  0001 C CNN
 F 3 "" H 3000 2550 50  0001 C CNN
 	1    3000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SENSOR_PROX_QRD:QRD1113GR U1
+U 1 1 6085AF80
+P 6500 3950
+F 0 "U1" H 6500 4267 50  0000 C CNN
+F 1 "QRD1113GR" H 6500 4176 50  0000 C CNN
+F 2 "OptoDevice:Everlight_ITR8307F43" H 6500 3750 50  0001 C CNN
+F 3 "https://everlighteurope.com/index.php?controller=attachment&id_attachment=5385" H 6500 4050 50  0001 C CNN
+	1    6500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60916ABE
+P 7850 3800
+F 0 "H1" H 7950 3846 50  0000 L CNN
+F 1 "MountingHole" H 7950 3755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7850 3800 50  0001 C CNN
+F 3 "~" H 7850 3800 50  0001 C CNN
+	1    7850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60917130
+P 7850 4050
+F 0 "H2" H 7950 4096 50  0000 L CNN
+F 1 "MountingHole" H 7950 4005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7850 4050 50  0001 C CNN
+F 3 "~" H 7850 4050 50  0001 C CNN
+	1    7850 4050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
